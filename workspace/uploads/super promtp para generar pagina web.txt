@@ -1,0 +1,123 @@
+Actúa como un **Arquitecto de Soluciones Web Senior** con experiencia en:  
+- Desarrollo frontend/backend escalable.  
+- Integración de APIs y sistemas legacy.  
+- Optimización para SEO, rendimiento y accesibilidad (WCAG 2.1).  
+- Selección de stacks tecnológicos según contexto de proyecto.  
+
+**Objetivo final**:  
+Generar una propuesta técnica detallada + código funcional para un sitio web profesional que cumpla con:  
+Descripción brevemente del propósito del sitio web; se necesita un sitio donde el cliente pueda acceder a toda la información de los servicios que ofrecemos, sistema de redirección a redes sociales y chats como whatsapp sección de monitore, asistencia, sección de cobros, ect.., solicitar cotización, solicitar servicio nuevo, enviar correo, ves datos de nuestra empresa gerente general, administrativo, técnicos, ubicación de la empresa, correo, números importantes, sección de resolución de problemas, marcas con la que trabajamos, geolocalización de área de servicio de monitoreo con respuestas y sin respuestas, mapa interactivo, y mas ideas y secciones interactiva que recomiendes.
+
+para una empresa de sistema de monitoreo de sensores de alarmas y video verificación cctv, seguridad patrullera, gps a vehículos, ect..
+
+algunos servicios que ofrece la empresa es: 
+*Monitoreo con notificación
+*Monitore con respuesta armada (patrulla)
+*Video Vigilancia
+*AMC Movil con el que puedes monitorear tu sistema de alarma
+*Reporte de apertura por sms
+*Servicio de control de horario
+*Comunicación de respaldo (GPRS)
+*Mantenimiento de equipos de alarmas, cctv, control de asceso, cerco eléctricos, ect…
+*Control de RONDAS
+*AMC Assist
+*AMC Protect
+
+Estamos ubicado en la carretera Don Pedro, Plaza Shalimar, segundo nivel, Santiago de los caballeros, el nombre de la empresa es AMC Alarmas y Monitoreo del Caribe, SRL
+
+**A. Recursos Disponibles**:  
+- No tenemos equipo de desalloradores, solo una persona que tiene conocimiento básicos del área y sabe manejar la ia como una especia de vivecoder. 
+- con relación al hosting tenemos un servidor casero Linux Ubuntu con casaos instalados (sistema de contenedores Docker), también tenemos cludflared con un dominio rdktech.us donde tenemos tunnel y sub domino, en este caso esta pagia por ejemplo a modo de inicio en lo que se configura y se prueba y testea a modo de presetacion desde la web se creara un subdominio amc.rdktech.us al localhost:9988 (puerto disponible)   
+- un diseño de pagina web que me llama la atención es este https://www.stereolabs.com/en-bg lo veo interesante minimalista con mucho detalle y dinamismo, colores suaves, intreacion, animación, imágenes detalles y todo lo que se necesita, me gusta ese formato. 
+- No tengo API REST existente en Node.js para autenticación, esto es necesario?
+
+**B. Restricciones Críticas**:  
+- a la web no entraran muchas personas al mismo tiempo no, que este bien optimizada tenga buena cache.
+- debe verse bien en dispositivos móviles, pc, tablets, ect… y esos navegadores de esos dispositivos, todo debe ser legible ya que personas mayores de edad usaran la web y también debe de tener un botón de modo oscuro y claro y un boton o icono de traducción al ingles / español (este como defecto) 
+- Tiempo de carga máximo de 2s en móvil 3G
+
+**C. Ejemplos de Referencia**:  
+- Sitios web que admiras: https://www.stereolabs.com/en-bg
+**RECURSOS**
+- en https://www.flaticon.es/ existen muchos iconos monocolor 
+- paginas de efectos https://lottiefiles.com/es/
+- https://agiledigital.com.au/
+- https://angular.dev/
+- https://www.blugraphic.com/
+  - https://rbgescuela.com/10-mejores-webs-recursos-graficos-disenar/
+- https://psddd.co/
+-https://tailwindcss.com/
+- TECNOLOGIA QUE ES VISTO QUE SON BUENA PARA ESO React + TypeScript + Vite, SI HAY MEJORES O LAS QUE RECOMIENDES 
+
+
+**COLORES**
+https://coolors.co/30343f-252c47-444e71-f5d11b-fafaff
+
+** LOGO DE LA EMPRESA **
+https://media.licdn.com/dms/image/v2/D4E0BAQFP5t6ub3gkKQ/company-logo_200_200/company-logo_200_200/0/1682878294710/amc_alarm_monitoring_company_srl_logo?e=2147483647&v=beta&t=fnknxp44HO424RVVrwFJvlUXcLdWkc36zAIr3RCoY14
+
+**Frontend**:  
+- Framework preferido: [React/Vue/Svelte/Next.js/Nuxt.js/Estático con Astro]  lo que recomiendes 
+- Requerimientos específicos:  
+  - Animaciones micro-interactivas con Framer Motion o lo que recomiendes
+
+**Backend**:  
+Esta parte no la manejo bien lo que recomiendes
+
+**Integraciones Clave**:  
+-redireccion a whatsapp por ejemplo Seccion de Monitoeo +1-829-970-8597, sección de cobros +1 (849) 630-3560, numero de la empresa +1 (809)582-7980, instagram de la empresa https://www.instagram.com/amcmonitoreo/?hl=es, linkedin de la empresa https://do.linkedin.com/company/amc-alarmas-y-monitoreo-del-caribe-srl, 
+-Google Maps API para geolocalización
+
+**Metodología de Desarrollo**:  
+- si es posible Docker compose para mas rápido y por lo menos para presentar el proyecto  
+
+**Para Qwen3-Max (si el proyecto es complejo)**:  
+1. "Dada la restricción de que no retenemos persona con conocimiento del área sino un vive coder nesecito que actue como una ia autónoma utilizando lo que recomiendes y mejor se adapte para este proyecto sin preguntarme. 
+
+opinión de alguien que no sabe mucho pero es una opion:
+1. Genera un componente React funcional para [describe componente] usando TypeScript y Tailwind CSS, siguiendo el patrón Compound Components. O cualquier otra cosa que recomiendes que sea funcional y útil puedes bucar fuentes en la web y recursos utiles
+2. Escribe un script de optimización de imágenes para Next.js que mantenga calidad en WebP o el que recomiendes o busca recursos en la web  
+3. no tengo API Node.js si hay que instalarlo dar los comandos y sacar todo lo que se nesecite.
+
+
+**Estructura de Salida Obligatoria**:  
+1. **Resumen Ejecutivo**:  
+   - Stack tecnológico recomendado + justificación en 3 bullets.  
+2. **Arquitectura Técnica**:  
+   - Diagrama de flujo ASCII o Mermaid.js de componentes clave.  
+3. **Código Prioritario**:  
+   - 1-2 archivos críticos (ej: `src/pages/index.js` + `docker-compose.yml`).  
+4. **Roadmap de Implementación**:  
+   - Fases con hitos medibles (ej: "Semana 1: Setup + Auth").  
+5. **Riesgos y Mitigaciones**:  
+   - lo que entiendas o recomiendes ya que no entiendo mucho de esto
+
+**Instrucciones para Qwen3**:  
+- "Si falta información crítica, haz 5 preguntas MÁXIMO antes de proceder."  
+- "Prioriza soluciones con código reusable y documentado (comentarios en español)."  
+- "Usa analogías técnicas para explicar decisiones complejas (ej: 'Es como un sistema de módulos en Python, pero para CSS').".  
+- "Si detectas conflicto entre requisitos (ej: 'SEO vs. SPA'), propón un trade-off con ventajas/desventajas."   
+- "busca y utiliza todos los recursos que nesecite si es necesario en al web, quiero que actúes como una ia autónoma ya que se desconoce un poco del tema"
+
+Yo creo no se que una estructura de archivo bien echa se vería asi, recuerda que no se mucho de esto es solo una opion:
+** Estructura de archivos 
+
+.mgx
+public
+src
+.gitignore
+README.md
+components.json
+eslint.config.js
+index.html
+package.json
+pnpm-lock.yaml
+postcss.config.js
+tailwind.config.ts
+template_config.json
+todo.md
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+.wiki.md
