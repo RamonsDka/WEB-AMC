@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web-amc:
+    # Construye la imagen de Docker a partir del Dockerfile en el directorio actual
+    build: .
+    # Asigna el puerto 3071 de tu servidor (host) al puerto 80 del contenedor
+    ports:
+      - "3071:80"
+    # Reinicia siempre el contenedor si se detiene
+    restart: always
